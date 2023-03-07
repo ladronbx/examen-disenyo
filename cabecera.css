@@ -1,0 +1,76 @@
+html{
+    margin: 0%;
+}
+.menu-nav {
+    background-color: #23422f;
+}
+
+#deerfield {
+    /*display + float left para que se vaya el resto de elementos a la derecha*/
+    display: block;
+    float: left;
+    background-color: #fc8343;
+    /*indicar tamaño del nombre de empresa*/
+    width: 260px;
+    height: 100px;
+    font-family:helvetica;
+}
+
+/*Eliminar estilo + indicar color fuente de ambos*/
+#deerfield a {
+    text-decoration: none;
+    color: #23422f;
+}
+
+#empresa {
+    padding-left: 20px;
+    padding-top: 10%;
+    padding-bottom: 0px;
+    font-size: x-large;
+}
+
+#lema {
+    padding-left: 20px;
+    padding-top: 0px;
+    font-size:medium;
+}
+
+/*Tamaño del menú de la derecha*/
+.menu {
+    width: cover;
+    height: 100px;
+}
+
+.menu a {
+    /*estilos de la fuente*/
+    text-decoration: none;
+    color: white;
+    /*padding*/
+    padding-left: 2%;
+    padding-top: 3%;
+    padding-bottom: 0px;
+    display: block;
+    float: left;
+}
+
+/*Estilo de home ya que es de diferente color*/
+.menu #home a {
+    text-decoration: none;
+    color: #fc8343;
+}
+
+
+/*Propiedades para eliminar el flotado*/
+
+.login-cesta{
+    
+
+}
+
+.login-cesta a{
+    text-decoration: none;
+    color: #fc8343;
+}
+
+
+
