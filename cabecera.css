@@ -1,0 +1,101 @@
+html {
+    margin: 0%;
+}
+
+.menu-nav {
+    background-color: #23422f;
+    padding-right: 20%;
+    
+}
+
+#deerfield {
+    /*display + float left para que se vaya el resto de elementos a la derecha*/
+    display: block;
+    float: left;
+    background-color: #fc8343;
+    /*indicar tamaño del nombre de empresa*/
+    width: 260px;
+    height: 133px;
+    font-family: helvetica;
+}
+
+/*Eliminar estilo + indicar color fuente de ambos*/
+#deerfield a {
+    text-decoration: none;
+    color: #23422f;
+}
+
+#empresa {
+    padding-left: 20px;
+    padding-top: 17%;
+    padding-bottom: 0px;
+    font-size: x-large;
+}
+
+#lema {
+    padding-left: 20px;
+    padding-top: 0px;
+    font-size: medium;
+}
+
+/*Tamaño del menú de la derecha*/
+.menu {
+    width: cover;
+    height: 100px;
+}
+
+.menu a {
+    /*estilos de la fuente*/
+    text-decoration: none;
+    color: white;
+    /*padding*/
+    padding-left: 2%;
+    padding-top: 7%;
+    padding-bottom: 0px;
+    display: block;
+    float: left;
+}
+
+/*Estilo de home ya que es de diferente color*/
+.menu #home a {
+    text-decoration: none;
+    color: #fc8343;
+}
+
+.login-cesta a {
+    text-decoration: none;
+    color: #fc8343;
+    float: right;
+}
+
+
+/*Propiedades para eliminar el flotado*/
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+#logo a {
+    position: fixed;
+    top: 10px;
+    right: 1%;
+}
+
+.container-chat{
+    background-color: #fc8343;
+    width: 70px;
+    height: 70px;
+    border-radius: 15%;
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    display: flex; /* Establecemos .container-chat como un contenedor de Flexbox */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
+}
+
+
+
+#logo-chat a {
+    position: relative;
+}
