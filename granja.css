@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Lato', sans-serif;
+    src: url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+.paragraph {
+    position: absolute;
+    background-color: rgb(251, 249, 244);
+    height: 500px;
+    align-items: center;
+    width: 100%;
+    z-index: 3;
+    margin-top: 55%;
+}
+
+.paragraph h3 {
+    font-size: xx-large;
+    padding-top: 7%;
+    padding-left: 7%;
+    padding-right: 70%;
+    padding-bottom: 0%;
+    color: #23422f;
+    text-align: left;
+}
+
+#linea-corta {
+    border-bottom: 1px solid #23422f;
+    width: 5%;
+    margin-left: 7%;
+    margin-top: 0%;
+}
+
+.paragraph p {
+    font-size: large;
+    padding-left: 7%;
+    padding-right: 62%;
+    color: #23422f;
+    text-align: left;
+}
+
+#img-granja {
+    background-image: url(fotos-bienve/granja-right.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+    z-index: 4;
+    top: -400px;
+    left: -170px;
+}
+
+/*Estilo al botón. Fondo naranja y letras verdes*/
+#join {
+    z-index: 9;
+    text-align: center;
+    height: 20px;
+    width: 150px;
+    background-color: #fc8343;
+    color: #23422f;
+    margin-left: 7%;
+    font-size: large;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*ESTO ES LO QUE NO ME FUNCIONA!!!! :( */
+/*Al pasar el mouse por el botón cambia a fondo naranja letras verdes*/
+#join:hover{
+    cursor: pointer; /*Se convierte en una mano el cursor*/
+    transition: 1s;
+    background-color:#23422f;
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 150px;
+    margin-left: 7%;
+    font-size: large;
+    margin-top: 0%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}

@@ -94,12 +94,9 @@ html {
     position: fixed;
     right: 2%;
     bottom: 2%;
-    display: flex;
-    /* Establecemos .container-chat como un contenedor de Flexbox */
-    justify-content: center;
-    /* Centramos horizontalmente */
-    align-items: center;
-    /* Centramos verticalmente */
+    display: flex; /* Establecemos .container-chat como un contenedor de Flexbox */
+    justify-content: center; /* Centramos horizontalmente */
+    align-items: center; /* Centramos verticalmente */
 }
 
 #logo-chat a {

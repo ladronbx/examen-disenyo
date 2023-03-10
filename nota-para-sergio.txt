@@ -1,0 +1,5 @@
+Holi!! 
+
+En el archivo "granja.css" el div "join" le meto la pseudoclase :hover y no me funciona! Lo he revisado y probado todo, y no detecto el fallo xd
+
+Gracias por echarle un ojo ;)
