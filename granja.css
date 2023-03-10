@@ -9,6 +9,7 @@ body {
 
 
 .paragraph {
+    display:grid;
     position: absolute;
     background-color: rgb(251, 249, 244);
     height: 500px;
@@ -45,13 +46,15 @@ body {
 
 #img-granja {
     background-image: url(fotos-bienve/granja-right.png);
-    height: 100%;
+    width: 50%; /* ajusta el ancho según tus necesidades */
+    height: 50%;
     background-repeat: no-repeat;
     background-position: right;
-    position: relative;
     z-index: 4;
-    top: -400px;
-    left: -170px;
+    position: absolute;
+    right: 10%;
+    top: 20%;
+
 }
 
 /*Estilo al botón. Fondo naranja y letras verdes*/
