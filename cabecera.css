@@ -3,9 +3,10 @@ html {
 }
 
 .menu-nav {
+    margin: 0%;
     background-color: #23422f;
     padding-right: 20%;
-    
+
 }
 
 #deerfield {
@@ -75,13 +76,17 @@ html {
     clear: both;
 }
 
+
+/*Logo que quedará fijo en esquina superior derecha*/
 #logo a {
+    z-index: 5;
     position: fixed;
     top: 10px;
     right: 1%;
 }
-
-.container-chat{
+/*Icono chat que quedará fijo en esquina iferior derecha*/
+.container-chat {
+    z-index: 5;
     background-color: #fc8343;
     width: 70px;
     height: 70px;
@@ -89,12 +94,13 @@ html {
     position: fixed;
     right: 2%;
     bottom: 2%;
-    display: flex; /* Establecemos .container-chat como un contenedor de Flexbox */
-    justify-content: center; /* Centramos horizontalmente */
-    align-items: center; /* Centramos verticalmente */
+    display: flex;
+    /* Establecemos .container-chat como un contenedor de Flexbox */
+    justify-content: center;
+    /* Centramos horizontalmente */
+    align-items: center;
+    /* Centramos verticalmente */
 }
-
-
 
 #logo-chat a {
     position: relative;
